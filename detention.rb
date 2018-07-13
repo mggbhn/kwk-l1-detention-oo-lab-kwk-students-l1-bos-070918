@@ -2,7 +2,7 @@
 
 class Detention
   
-  attr_accessor :location, :time
+  attr_accessor :location, :time, :grumpy_teacher
   
   def grumpy_teacher
     puts "John Schmidt"
