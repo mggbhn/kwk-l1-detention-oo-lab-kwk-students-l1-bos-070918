@@ -2,9 +2,9 @@
 
 class Detention
   
-  attr_accessor :location, :time, :grumpy_teacher, :students, :name
+  attr_accessor :location, :time, :grumpy_teacher, :students
   
-  def initialize(grumpy_teacher = "John Schmidt", students = [])
+  def initialize(grumpy_teacher = "John Schmidt", students = ["Rebecca"])
     @grumpy_teacher = grumpy_teacher
     @students = students
   end
