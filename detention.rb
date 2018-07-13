@@ -4,7 +4,8 @@ class Detention
   
   attr_accessor :location, :time
   
-  def initialize
+  def grumpy_teacher
+    puts "John Schmidt"
   end
   
   
