@@ -12,8 +12,8 @@ class Detention
   def activity(punishment = "collective punishment") 
     @punishment = punishment
   end 
-  def add_student (name = []) 
-    @name = name
+  def add_student (name) 
+    students.push(name)
   end
 end
 
