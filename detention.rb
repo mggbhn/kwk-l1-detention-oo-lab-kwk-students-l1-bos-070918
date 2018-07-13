@@ -2,6 +2,7 @@
 
 class Detention
   
+  attr_accessor :location
   
   def initialize
   end
