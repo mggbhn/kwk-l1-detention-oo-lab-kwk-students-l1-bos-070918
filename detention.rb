@@ -12,7 +12,7 @@ class Detention
   def activity(punishment = "collective punishment") 
     @punishment = punishment
   end 
-  def add_student (name = "Rebecca") 
+  def add_student (name = ["Rebecca"]) 
     @name = name
   end
 end
