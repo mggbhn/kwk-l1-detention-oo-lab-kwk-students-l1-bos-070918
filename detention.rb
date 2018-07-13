@@ -8,8 +8,8 @@ class Detention
     @grumpy_teacher = grumpy_teacher
   end
   
-  def activity 
-    
+  def activity(punishment = "collective punishment") 
+    @punishment = punishment
   end 
   
 end
