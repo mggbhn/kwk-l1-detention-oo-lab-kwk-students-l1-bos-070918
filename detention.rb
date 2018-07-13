@@ -8,6 +8,9 @@ class Detention
     @grumpy_teacher = grumpy_teacher
   end
   
+  def activity 
+    
+  end 
   
 end
 
